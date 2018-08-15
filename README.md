@@ -1,7 +1,7 @@
 # layui_treeselect
 Layui  树形下拉框
 
-例子：
+```
 <div class="layui-input-inline" style="width: 210px;">
        <input type="text" id="treeselect" lay-verify="required" autocomplete="off" placeholder="请选择部门"  class="layui-input" name="treeselect">
 </div>
@@ -9,7 +9,7 @@ Layui  树形下拉框
  layui.config({
         base: '/static/module/'
     }).extend({
-		  treeselect: 'treeselect/treeselect'
+	treeselect: 'treeselect/treeselect'
     }).use(['table','treeselect'], function () {
       var $ = layui.jquery;
           var table = layui.table;
@@ -39,3 +39,4 @@ Layui  树形下拉框
          }); 
  });
 </script>
+```
